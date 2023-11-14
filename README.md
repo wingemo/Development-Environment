@@ -20,5 +20,5 @@ docker exec -it devenv bash
 
 | Tool  | Version |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| vim  | 9.0  |
 | Content Cell  | Content Cell  |
