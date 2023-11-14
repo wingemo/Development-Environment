@@ -4,7 +4,7 @@ Create a configurable developer environment with all the code and tools you need
 
 ### Instructions
 ```sh
-yarn run bootstrap
+docker build -t devenv .
 ```
 
 ```sh
