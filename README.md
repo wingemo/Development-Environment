@@ -7,7 +7,7 @@ The docker build command builds Docker images from a Dockerfile.
 ```sh
 docker build -t devenv .
 ```
-creates and starts a Docker container based on the image, running it in the background with a pseudo-TTY for interaction.
+Creates and starts a Docker container based on the image, running it in the background with a pseudo-TTY for interaction.
 ```sh
 docker run -d -t --name test devenv
 ```
