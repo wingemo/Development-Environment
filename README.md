@@ -8,9 +8,9 @@ docker build -t devenv .
 ```
 
 ```sh
-yarn run bootstrap
+docker run -d -t --name test devenv
 ```
 
 ```sh
-yarn run bootstrap
+docker exec -it test bash
 ```
