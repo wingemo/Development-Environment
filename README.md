@@ -15,3 +15,10 @@ Execute an interactive Bash shell in a running Docker container.
 ```sh
 docker exec -it devenv bash
 ```
+
+### Tools
+
+| Tool  | Version |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
