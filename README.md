@@ -11,7 +11,7 @@ creates and starts a Docker container based on the image, running it in the back
 ```sh
 docker run -d -t --name test devenv
 ```
-Execute an interactive Bash shell in a running Docker container
+Execute an interactive Bash shell in a running Docker container.
 ```sh
 docker exec -it test bash
 ```
