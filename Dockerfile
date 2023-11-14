@@ -1,4 +1,15 @@
 FROM ubuntu:latest
 
-RUN apt-get update && \
-    apt-get install -y
+# Update the package lists
+RUN apt-get update
+
+# Install additional packages or perform other customization
+# For example, you can install some common tools
+RUN apt-get install -y \
+    sudo \
+    vim \
+    curl \
+    wget \
+    net-tools
+
+USER root
