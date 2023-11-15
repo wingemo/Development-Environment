@@ -9,7 +9,7 @@ docker build -t devenv .
 ```
 creates and starts a Docker container based on the image, running it in the background with a pseudo-TTY for interaction.
 ```sh
-docker run -d -t --name test devenv
+docker run -d -t -v path/app --name test devenv
 ```
 Execute an interactive Bash shell in a running Docker container.
 ```sh
