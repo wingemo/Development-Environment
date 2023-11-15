@@ -12,4 +12,7 @@ RUN apt-get install -y \
     wget \
     net-tools
 
+WORKDIR /app
+VOLUME ["/app"]
+
 USER root
